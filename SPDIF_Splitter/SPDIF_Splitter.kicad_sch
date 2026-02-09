@@ -1,0 +1,79 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bfa873e1-bf8c-43a9-8ec6-1cc8f96e5057")
+	(paper "A4")
+	(title_block
+		(title "1x4 SPDIF Active Splitter")
+		(date "2025-02-22")
+		(rev "1.0")
+		(company "Custom DIY Project")
+		(comment 1 "Designed for USB Power & RCA Jacks")
+	)
+	(lib_symbols)
+	(symbol
+		(lib_id "THS7374")
+		(at 62.23 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f131ba44-1edf-42b2-856a-3604d6198af8")
+		(property "Reference" "U?"
+			(at 62.2299 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "THS7374IPWR"
+			(at 62.2299 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14"
+			(at 62.2299 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SPDIF_Splitter"
+				(path "/bfa873e1-bf8c-43a9-8ec6-1cc8f96e5057"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
